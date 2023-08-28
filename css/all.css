@@ -1,0 +1,94 @@
+/*全站設定*/
+body {
+    font-family: 'Roboto', 'Noto Sans TC';
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+span {
+    vertical-align: middle;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+/*text*/
+h1, h2, h3, h4 {
+    color: #650300;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 4px;
+}
+
+h2 {
+    font-size: 48px;
+    margin-bottom: 24px;
+  }
+  
+  h3 {
+    font-size: 48px;
+    font-style: italic;
+    background: #fff;
+    color: #AA0601;
+    padding: 12px 0;
+  }
+  
+  h4 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+
+  @media (max-width: 767px) {
+    h1, h2 {
+      font-size: 24px;
+    }
+  }
+
+  /*網站樣式*/
+  .header {
+    background: #AA0601;
+    padding: 25px 36px;
+  }
+
+  @media (max-width: 767px) {
+    .header {
+      padding: 0px;
+    }
+  }
+
+  .header .container {
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header .menu {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 64px;
+  }
+
+  .header li {
+    text-align: center;
+  }
+
+  .header img {
+    width: 80px;
+  }
